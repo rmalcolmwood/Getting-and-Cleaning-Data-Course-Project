@@ -48,6 +48,7 @@ The original dataset included the following files:
 - 'train/y_train.txt': Training labels.
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
+
 =======================================
 
 **A new file has been created that includes an r script to create an independent dataset with the average of each variable for each activity 
