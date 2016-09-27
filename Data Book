@@ -24,7 +24,7 @@ tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, 
 fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals)."
 
-The dataset was updated to merge the training and test sets to create one data set, and only display the mean and standard 
+**The dataset was updated to merge the training and test sets to create one data set, and only display the mean and standard 
 deviation measurements.
 
 Each row of features is associated with the "subject" and "activity" that generated the signals.
