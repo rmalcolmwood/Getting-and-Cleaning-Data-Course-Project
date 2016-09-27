@@ -55,6 +55,16 @@ The original dataset included the following files:
 and subject. The resulting dataset is a merger of the training and test sets, and includes measurements on the mean and standard deviation for
 each measurement.**
 
+The script goes through the following steps:
+
+1. read the zipfile containing the datasets
+2. unzip
+3. read and set the activity labels/features from the unzipped file (use 2nd column only from the resulting table
+4. read the mean and standard deviation
+5. read and merge the datasets and give them labels
+6. make the activities & subjects into factors 
+7. use the reshape2 package to name columns and get the means
+
 =======================================
 
 The following files are available for the train and test data. Their descriptions are equivalent. 
